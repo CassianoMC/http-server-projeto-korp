@@ -7,3 +7,24 @@ Documentação/*
 .DS_Store
 Thumbs.db
 .vscode/
+
+# Variaveis de ambiente e segredos locais
+.env
+.env.*
+!.env.example
+
+# Logs e arquivos temporarios
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Binario Go gerado por build local
+http-server-projeto-korp/app/http-server-projeto-korp
+
+# Arquivos locais do Docker Compose
+docker-compose.override.yml
+http-server-projeto-korp/docker-compose.override.yml
+
+# Arquivos temporarios do Ansible
+*.retry
