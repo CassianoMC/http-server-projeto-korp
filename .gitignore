@@ -1,8 +1,3 @@
-# Documentacao pessoal/local que nao deve ir para o repositorio publico
-Documentação/*
-!Documentação/prints/
-!Documentação/prints/**
-
 # Arquivos comuns de sistema/editor
 .DS_Store
 Thumbs.db
