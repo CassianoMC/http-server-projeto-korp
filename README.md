@@ -188,6 +188,8 @@ ansible-playbook -i inventory.ini playbook.yml --ask-become-pass
 
 Os prints abaixo documentam a execucao do projeto de ponta a ponta.
 
+### Containers ativos
+
 [![Containers ativos no Docker Compose](https://github.com/CassianoMC/http-server-projeto-korp/raw/main/Documenta%C3%A7%C3%A3o/prints/01-docker-compose-ps.png)](/CassianoMC/http-server-projeto-korp/blob/main/Documenta%C3%A7%C3%A3o/prints/01-docker-compose-ps.png)
 
 ### Endpoint respondendo no terminal
