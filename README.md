@@ -188,31 +188,27 @@ ansible-playbook -i inventory.ini playbook.yml --ask-become-pass
 
 Os prints abaixo documentam a execucao do projeto de ponta a ponta.
 
-### Containers ativos
-
-![Containers ativos no Docker Compose](Documentação/prints/01-docker-compose-ps.png)
+[![Containers ativos no Docker Compose](https://github.com/CassianoMC/http-server-projeto-korp/raw/main/Documenta%C3%A7%C3%A3o/prints/01-docker-compose-ps.png)](/CassianoMC/http-server-projeto-korp/blob/main/Documenta%C3%A7%C3%A3o/prints/01-docker-compose-ps.png)
 
 ### Endpoint respondendo no terminal
 
-![Resposta do endpoint via curl](Documentação/prints/02-curl-endpoint.png)
-
-### Endpoint respondendo no navegador
-
-![Resposta do endpoint no navegador](Documentação/prints/03-endpoint-navegador.png)
+[![Resposta do endpoint via curl](https://github.com/CassianoMC/http-server-projeto-korp/raw/main/Documenta%C3%A7%C3%A3o/prints/02-curl-endpoint.png)](/CassianoMC/http-server-projeto-korp/blob/main/Documenta%C3%A7%C3%A3o/prints/02-curl-endpoint.png)
 
 ### Queries dos paineis no Grafana
 
-![Query de disponibilidade no Grafana](Documentação/prints/04-grafana-query-disponibilidade.png)
+[![Query de disponibilidade no Grafana](https://github.com/CassianoMC/http-server-projeto-korp/raw/main/Documenta%C3%A7%C3%A3o/prints/04-grafana-query-disponibilidade.png)](/CassianoMC/http-server-projeto-korp/blob/main/Documenta%C3%A7%C3%A3o/prints/04-grafana-query-disponibilidade.png)
 
-![Query de requisicoes por minuto no Grafana](Documentação/prints/05-grafana-query-requisicoes.png)
+[![Query de requisicoes por minuto no Grafana](https://github.com/CassianoMC/http-server-projeto-korp/raw/main/Documenta%C3%A7%C3%A3o/prints/05-grafana-query-requisicoes.png)](/CassianoMC/http-server-projeto-korp/blob/main/Documenta%C3%A7%C3%A3o/prints/05-grafana-query-requisicoes.png)
 
 ### Dashboard Grafana
 
-![Dashboard Grafana com servico disponivel](Documentação/prints/06-grafana-dashboard-disponivel.png)
+[![Dashboard Grafana com servico disponivel](https://github.com/CassianoMC/http-server-projeto-korp/raw/main/Documenta%C3%A7%C3%A3o/prints/06-grafana-dashboard-disponivel.png)](/CassianoMC/http-server-projeto-korp/blob/main/Documenta%C3%A7%C3%A3o/prints/06-grafana-dashboard-disponivel.png)
+
+[![Dashboard Grafana com servico indisponivel](https://github.com/CassianoMC/http-server-projeto-korp/raw/main/Documenta%C3%A7%C3%A3o/prints/07-grafana-dashboard-indisponivel.png)](/CassianoMC/http-server-projeto-korp/blob/main/Documenta%C3%A7%C3%A3o/prints/07-grafana-dashboard-indisponivel.png)
 
 ### Validacao com Ansible
 
-![Execucao do Ansible validando o endpoint](Documentação/prints/08-ansible-playbook-validacao.png)
+[![Execucao do Ansible validando o endpoint](https://github.com/CassianoMC/http-server-projeto-korp/raw/main/Documenta%C3%A7%C3%A3o/prints/08-ansible-playbook-validacao.png)](/CassianoMC/http-server-projeto-korp/blob/main/Documenta%C3%A7%C3%A3o/prints/08-ansible-playbook-validacao.png)
 
 ## Status do desafio
 
