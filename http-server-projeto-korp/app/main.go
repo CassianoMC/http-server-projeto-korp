@@ -9,7 +9,6 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
-	
 )
 
 type Resposta struct {
@@ -20,10 +19,9 @@ type Resposta struct {
 var httpRequestsTotal = promauto.NewCounterVec(
 	prometheus.CounterOpts{
 		Name: "http_requests_total",
-		Help: "Total de requesições recebidas pelo endpoint /projeto-korp",
+		Help: "Total de requisições recebidas pelo endpoint /projeto-korp",
 	},
 	[]string{"method", "status"},
-
 )
 
 type statusRecorder struct {
@@ -37,7 +35,7 @@ func (r *statusRecorder) WriteHeader(status int) {
 }
 
 func projetoKorpHandler(w http.ResponseWriter, r *http.Request) {
-     rec := &statusRecorder{ResponseWriter: w, status: http.StatusOK}
+	rec := &statusRecorder{ResponseWriter: w, status: http.StatusOK}
 
 	resposta := Resposta{
 		Nome:    "Projeto Korp",
